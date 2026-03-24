@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+.pytest_cache/
+.ruff_cache/
+dist/
+build/
+*.egg-info/
+
+# Готовые справки и пакеты — персональные данные, в репозиторий им нельзя.
+out/
+samples/signature.png

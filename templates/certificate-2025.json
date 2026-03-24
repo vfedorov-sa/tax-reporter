@@ -1,0 +1,315 @@
+{
+  "name": "certificate-2025",
+  "tax_year": 2025,
+  "pdf": "certificate-2025.pdf",
+  "signatures": [
+    {
+      "page": 0,
+      "x": 78.0,
+      "y": 259.8897637795277,
+      "width": 100,
+      "height": 28
+    },
+    {
+      "page": 1,
+      "x": 55.0,
+      "y": 41.8897637795277,
+      "width": 100,
+      "height": 28
+    }
+  ],
+  "fields": {
+    "p1_clinic_inn": {
+      "page": 0,
+      "x": 180.0,
+      "y": 794.89,
+      "width": 130,
+      "height": 15.0,
+      "source": "clinic.inn"
+    },
+    "p1_clinic_kpp": {
+      "page": 0,
+      "x": 180.0,
+      "y": 774.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "clinic.kpp"
+    },
+    "p1_page_no": {
+      "page": 0,
+      "x": 325.0,
+      "y": 774.89,
+      "width": 40,
+      "height": 15.0,
+      "const": "001"
+    },
+    "number": {
+      "page": 0,
+      "x": 110.0,
+      "y": 674.89,
+      "width": 120,
+      "height": 15.0,
+      "source": "number"
+    },
+    "correction": {
+      "page": 0,
+      "x": 360.0,
+      "y": 674.89,
+      "width": 40,
+      "height": 15.0,
+      "source": "correction"
+    },
+    "tax_year": {
+      "page": 0,
+      "x": 495.0,
+      "y": 674.89,
+      "width": 60,
+      "height": 15.0,
+      "source": "tax_year"
+    },
+    "clinic_name": {
+      "page": 0,
+      "x": 30.0,
+      "y": 633.89,
+      "width": 535.28,
+      "height": 20,
+      "source": "clinic.name"
+    },
+    "tp_last_name": {
+      "page": 0,
+      "x": 85.0,
+      "y": 570.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "taxpayer.last_name"
+    },
+    "tp_first_name": {
+      "page": 0,
+      "x": 85.0,
+      "y": 550.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "taxpayer.first_name"
+    },
+    "tp_patronymic": {
+      "page": 0,
+      "x": 85.0,
+      "y": 530.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "taxpayer.patronymic"
+    },
+    "tp_inn": {
+      "page": 0,
+      "x": 85.0,
+      "y": 510.89,
+      "width": 160,
+      "height": 15.0,
+      "source": "taxpayer.inn"
+    },
+    "tp_birth_date": {
+      "page": 0,
+      "x": 355.0,
+      "y": 510.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "taxpayer.birth_date",
+      "format": "date"
+    },
+    "tp_doc_kind": {
+      "page": 0,
+      "x": 130.0,
+      "y": 468.89,
+      "width": 40,
+      "height": 15.0,
+      "source": "taxpayer.document.kind"
+    },
+    "tp_doc_number": {
+      "page": 0,
+      "x": 355.0,
+      "y": 468.89,
+      "width": 160,
+      "height": 15.0,
+      "source": "taxpayer.document.series_number"
+    },
+    "tp_doc_date": {
+      "page": 0,
+      "x": 105.0,
+      "y": 448.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "taxpayer.document.issued_at",
+      "format": "date"
+    },
+    "same_person": {
+      "page": 0,
+      "x": 305.0,
+      "y": 422.89,
+      "width": 30,
+      "height": 15.0,
+      "source": "patient_is_taxpayer",
+      "format": "flag"
+    },
+    "amount1_rub": {
+      "page": 0,
+      "x": 400.0,
+      "y": 384.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "amount_standard",
+      "format": "rubles"
+    },
+    "amount1_kop": {
+      "page": 0,
+      "x": 522.0,
+      "y": 384.89,
+      "width": 35,
+      "height": 15.0,
+      "source": "amount_standard",
+      "format": "kopecks"
+    },
+    "amount2_rub": {
+      "page": 0,
+      "x": 400.0,
+      "y": 359.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "amount_expensive",
+      "format": "rubles"
+    },
+    "amount2_kop": {
+      "page": 0,
+      "x": 522.0,
+      "y": 359.89,
+      "width": 35,
+      "height": 15.0,
+      "source": "amount_expensive",
+      "format": "kopecks"
+    },
+    "signer_name": {
+      "page": 0,
+      "x": 30.0,
+      "y": 312.89,
+      "width": 300,
+      "height": 15.0,
+      "source": "signer"
+    },
+    "sign_date": {
+      "page": 0,
+      "x": 260.0,
+      "y": 256.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "issued_at",
+      "format": "date"
+    },
+    "pages": {
+      "page": 0,
+      "x": 140.0,
+      "y": 222.89,
+      "width": 40,
+      "height": 15.0,
+      "source": "pages",
+      "format": "pad3"
+    },
+    "p2_clinic_inn": {
+      "page": 1,
+      "x": 180.0,
+      "y": 794.89,
+      "width": 130,
+      "height": 15.0,
+      "source": "clinic.inn"
+    },
+    "p2_clinic_kpp": {
+      "page": 1,
+      "x": 180.0,
+      "y": 774.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "clinic.kpp"
+    },
+    "p2_page_no": {
+      "page": 1,
+      "x": 325.0,
+      "y": 774.89,
+      "width": 40,
+      "height": 15.0,
+      "const": "002"
+    },
+    "pt_last_name": {
+      "page": 1,
+      "x": 85.0,
+      "y": 716.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "patient.last_name"
+    },
+    "pt_first_name": {
+      "page": 1,
+      "x": 85.0,
+      "y": 696.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "patient.first_name"
+    },
+    "pt_patronymic": {
+      "page": 1,
+      "x": 85.0,
+      "y": 676.89,
+      "width": 240,
+      "height": 15.0,
+      "source": "patient.patronymic"
+    },
+    "pt_inn": {
+      "page": 1,
+      "x": 85.0,
+      "y": 656.89,
+      "width": 160,
+      "height": 15.0,
+      "source": "patient.inn"
+    },
+    "pt_birth_date": {
+      "page": 1,
+      "x": 355.0,
+      "y": 656.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "patient.birth_date",
+      "format": "date"
+    },
+    "pt_doc_kind": {
+      "page": 1,
+      "x": 130.0,
+      "y": 613.89,
+      "width": 40,
+      "height": 15.0,
+      "source": "patient.document.kind"
+    },
+    "pt_doc_number": {
+      "page": 1,
+      "x": 355.0,
+      "y": 613.89,
+      "width": 160,
+      "height": 15.0,
+      "source": "patient.document.series_number"
+    },
+    "pt_doc_date": {
+      "page": 1,
+      "x": 105.0,
+      "y": 593.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "patient.document.issued_at",
+      "format": "date"
+    },
+    "p2_sign_date": {
+      "page": 1,
+      "x": 310.0,
+      "y": 36.89,
+      "width": 110,
+      "height": 15.0,
+      "source": "issued_at",
+      "format": "date"
+    }
+  }
+}
